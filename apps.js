@@ -1,8 +1,9 @@
  function submitTemp(){
-    var number = document.getElementById('number')
-    var res = document.getElementById('res')
-    var options1 = document.getElementsByName("options1")
-    var options2 = document.getElementsByName("options2")
+    const number = document.getElementById('number')
+    const res = document.getElementById('res')
+    const options1 = document.getElementsByName("options1")
+    const options2 = document.getElementsByName("options2")
+    
     if(number.value.length == 0){
         window.alert("Campo principal em branco!")
     }else{   
